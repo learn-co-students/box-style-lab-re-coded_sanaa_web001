@@ -5,6 +5,7 @@ body, html {
   margin: 0 auto;
   display: block;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .container, h1 {
@@ -26,15 +27,21 @@ h4 {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-
+  background: linear-gradient(to right, #44cc66, rgb(53, 53, 53));
 }
 
 .indifferent {
-  background-color: #dddd22;
+  border: 1px solid #ddbb22;
+  box-shadow:  -1px 1px #ddbb22, -2px 2px #ddbb22, -3px 3px #ddbb22, -4px 4px #ddbb22, -5px 5px #ddbb22;
+  background-color: #ddbb22;
+  background: linear-gradient(to right, #ddbb22, rgb(53, 53, 53));
 }
 
 .dubious {
-  background-color: #dd4444;
+  border: 1px solid #dd4444;
+  box-shadow:  -1px 1px #dd2244, -2px 2px #dd2244, -3px 3px #dd2244, -4px 4px #dd2244, -5px 5px #dd2244;
+  background-color: #dd2244;
+  background: linear-gradient(to right, #dd4444, rgb(53, 53, 53));
 }
 
 .column {
